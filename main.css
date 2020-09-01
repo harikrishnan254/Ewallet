@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*logo text change*/
+.mainhover{
+	color: #000;
+	cursor: pointer;
+}
+.mainhover .walletlogo{
+	display: none;
+}
+.mainhover:hover .easylogo{
+	display: none;
+}
+.mainhover:hover .walletlogo{
+	display: inline;
+}
+
+div i.iconSize{
+	font-size: 30px;
+}
+
+div.firstdiv{
+	background-image: linear-gradient(to right,indigo,purple)
+}
+div p a i.electricityicon{
+	color: red;
+	}
+	div p a i.rupeeicon{
+	color: green;
+	}
+	div p a i.tvicon{
+	color: black;
+	}

@@ -1,0 +1,328 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Compiled amd minified CSS -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+       <!--font awesome link-->
+       <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+       <!--animate Css-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+       <!--custom Css-->
+       <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <header>
+       <nav class="blue darken-4">
+         <div class="nav-wrapper">
+          <div class="container">
+            <a href="" class="brand-logo mainhover" data-hover="Wallet">
+              <span class="easylogo">Easy</span>
+              <span class="walletlogo">Wallet</span>
+              </a>            
+          </div><!--container-->
+          
+          
+          <a href="" class="sidenav-trigger sidenav-fixed " data-target="mobile-demo">
+           <i class="material-icons">menu</i> 
+          </a>
+     <ul class="hide-on-small-only right">
+        <!--firstbutton-->
+
+       <li>
+         <a href="#modal1" class="btn waves-effect waves light blue darken-2 modal-trigger">
+           <i class="material-icons left">account_circle</i>
+           <span>Login</span>
+         </a>
+       </li>
+       <!--second button-->
+
+       <li>
+         <a href="" class="btn waves-effect waves-light blue darken-2">
+          <i class="material-icons left">notifications_active</i>
+           <span class="new badge red pulse" data-badge-caption="MSG">3</span>
+         </a>
+       </li>
+       <!--third  button-->
+        <li>
+         <a href="" class="btn waves-effect waves-light blue darken-2">
+           <i class="material-icons left">account_circle</i> 
+          <span>User</span> 
+         </a>
+       </li>
+      </ul> 
+     </div>
+         
+       </nav>
+
+       <ul id="mobile-demo" class="sidenav">
+       <li>
+        
+         <div class="user-view">
+
+
+          <div class="background">
+           <img src="assets/media/image.png" alt="">
+         </div>
+         <div class="row col s12">
+         <a href="" class="col s10">
+           <img src="assets/media/hari.jpg " class="circle">
+         </a>
+         <a href="#mobile-demo" class="btn sidenav-close white col s2 z-depth-0">
+          <i class="material-icons pink-text">close</i>
+        </a>
+         <a href="" class="col s10">
+           <img src="assets/media/joshwaa.jpg " class="circle">
+         </a>
+
+         
+      </div>
+<a href=""><span class="white-text name">HariKrishnan,Joswaa</span></a>
+          <a href=""><span class="white-text email">221003033@sastra.ac.in,221003039@sastra.ac.in</span></a>
+
+        </div>
+         </li>
+         <li>
+           <a href="">
+             <i class="material-icons light-green-text text-accent-3">account_balance_wallet</i>
+             ₹ 0.00
+           </a>
+         </li>
+         <li>
+           <a href="">
+             <i class="material-icons light-blue text-darken-2">notifications_active</i>
+             <span class="new badge amber pulse left" data-badge-caption="3 Messages"></span>
+           </a>
+         </li>
+        <li><div class="divider"></div></li>
+        <li>
+          <a href="">
+            <i class="material-icons yellow-text text-darken-4">shopping_cart</i>cart</a>
+        </li> 
+         <li>
+          <a href="">
+            <i class="material-icons cyan-text text-darken-4">timelapse</i>pending</a>
+        </li> 
+        <li>
+          <a href="">
+            <i class="material-icons purple-text text-accent-2">smartphone</i>Recharges
+            <span class="new badge pulse red" data-badge-caption="new"></span></a>
+        </li> 
+        <li>
+          <a href="">
+            <i class="material-icons pink-text text-accent-2">flight_takeoff</i>Flights,Hotels
+            <span class="new badge pulse red" data-badge-caption="new"></span></a>
+        </li> 
+        <li><div class="divider"></div></li>
+        <li>
+          <a href="">
+            <i class="material-icons black-text text-accent-2">assistant</i>EasyAssistant
+            </a>
+        </li> 
+        <li>
+          <a href="">
+            <i class="material-icons black-text text-accent-2">account_balance</i>Passbook
+            </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="fas fa-sign-out-alt black-text darken-2 prefix"></i>Logout
+            </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="fas fa-question-circle black-text darken-2 prefix"></i>Help
+            </a>
+        </li>
+
+
+     </ul>   
+     
+
+     </header> 
+    <main>
+      <div class="container">
+      <div id="modal1" class="modal">
+          <div class="modal-content">
+                
+              <div class="card-panel light-blue lighten-1">
+                <form class="col xl12 l12 m12 s12 ">
+                  <div class="row">
+                    <div class="col xl12 l12 m12 s12 input-field">
+                      <i class="fas fa-lock white-text prefix"></i>
+                      <input type="text" name="" class="validate white-text" id="icon-prefix1">
+                      <label for="icon-prefix1" class="white-text">Username</label>
+                      
+                    </div>
+                      <div class="col xl12 l12 m12 s12 input-field">
+                     <i class="fas fa-key white-text prefix"></i>
+                      <input type="text" name="" class="validate white-text" id="icon-prefix2">
+                      <label for="icon-prefix2" class="white-text">Password</label>
+                      
+                    </div>
+                    <div class="container">
+                      <button class="btn waves-effect waves-light col xl12 l12 m12 s12 blue darken-4 white-text">
+                      <strong>submit
+                      </strong>
+                    </button>
+                      
+                    </div>
+                    
+                  </div>
+                </form>
+              </div>  
+              <div class="card">
+                <a href="" class="btn-floating halfway-fab waves-effect waves-light btn-large left hide-on-med-and-down tooltipped blue darken-4" data-position="right" data-tooltip="Create Account">
+                  <i class="material-icons">add</i>
+                </a>
+                 <a href="" class="btn-floating halfway-fab waves-effect waves-light btn-large right hide-on-med-and-down tooltipped amber" data-position="left" data-tooltip="Forgot Password">
+                  <i class="material-icons">help</i>
+                </a>
+              </div>
+                 
+          </div>           
+            
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">
+                <i class="material-icons left">close</i>
+              close</a>
+            </div>
+        </div>
+      </div>
+      <div class="container">
+        <form>
+          <div class="row">
+          <div class="input-field col s12">
+            <input type="text" name="" id="autocomplete-input" class="autocomplete">
+            <label for="autocomplete-input">Find...</label>
+          </div>
+            
+          </div>
+        </form>
+        
+      </div>
+
+      <div class="firstdiv">
+        <div class="container center">
+          <div class="row">
+
+      <div class="row">     
+        <div class="card-panel col xl12 l12 m12 s5 hoverable">
+          <p>
+            <a href="">
+              <i class="fas fa-mobile-alt iconSize"></i></br>
+              <strong>Mobile Recharge</strong>
+            </a>
+          </p>
+        </div><!--cardpanel-->
+        <div class="card-panel col s5 hoverable hide-on-med-and-up offset-s1">
+          <p>
+            <a href="">
+              <i class="fas fa-wifi iconSize"></i></br>
+              <strong>Broadband</strong>
+            </a>
+          </p>
+        </div>
+      </div><!--firstrow-->
+
+     <!--secondrow-->
+       <div class="row">
+         <div class="card-panel col xl4 l4 m4 hoverable hide-on-small-only">
+          <p>
+            <a href="">
+              <i class="fas fa-wifi iconSize"></i></br>
+              <strong>Broadband Recharge</strong>
+            </a>
+          </p>
+            
+        </div>   
+        <!--end of broad band-->
+        <div class="card-panel col xl3 l3 m3 s5 hoverable offset-xl1 offset-l1 offset-m1">
+          <p>
+            <a href="">
+              <i class="fas fa-lightbulb iconSize electricityicon"></i></br>
+              <strong>Electricity</strong>
+            </a>
+          </p>
+            
+        </div><!--end of electicity-->
+        <div class="card-panel col xl3 l3 m3 s5 hoverable offset-xl1 offset-l1 offset-m1 offset-s1">
+          <p>
+            <a href="">
+              <i class="fas fa-gas-pump iconSize animate__animated animate__shakeX"></i></br>
+              <strong>Gas Bill</strong>
+            </a>
+          </p>
+        </div>
+      </div><!--end of secondrow-->
+      <div class="row">
+      <div class="card-panel col xl5 l5 m5 s5 hoverable">
+          <p>
+            <a href="">
+              <i class="fas fa-tint iconSize animate__animated animate__slideInDown"></i></br>
+              <strong>Water bill</strong>
+            </a>
+          </p>
+        </div>
+        <div class="card-panel col xl5 l5 m5 s5 hoverable offset-xl2 offset-l2 offset-m2 offset-s1">
+          <p>
+            <a href="">
+              <i class="fas fa-tv iconSize tvicon"></i></br>
+              <strong>DTH Recharge</strong>
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+      <div class="card-panel col xl5 l5 m5 s5 hoverable">
+          <p>
+            <a href="">
+              <i class="fas fa-rupee-sign iconSize rupeeicon "></i></br>
+              <strong>Money Transfer</strong>
+            </a>
+          </p>
+        </div>
+        <div class="card-panel col xl5 l5 m5 s5 hoverable offset-xl2 offset-l2 offset-m2 offset-s1">
+          <p>
+            <a href="">
+              <i class="fas fa-hands iconSize "></i></br>
+              <strong>Donation</strong>
+            </a>
+          </p>
+        </div>
+      </div>
+      
+      
+
+
+
+         
+         </div>
+       </div>
+      </div>
+
+     
+    </main>       
+
+
+       <!--jquery cdn link-->
+
+        <script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+  crossorigin="anonymous"></script>
+
+      <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script type="text/javascript" src="assets/js/index.js"></script>
+
+            
+    </body>
+  </html>
